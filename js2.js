@@ -91,7 +91,7 @@ $.get("/assets/html/inder.html", function(data) {
 });
 
 $(window).on("load", function() {
-    setTimeout(removeLoader, 0000); //wait for page load PLUS 4 seconds.
+    setTimeout(removeLoader, 4000); //wait for page load PLUS 4 seconds.
 });
 
 function removeLoader() {
