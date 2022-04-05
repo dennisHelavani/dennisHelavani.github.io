@@ -727,7 +727,7 @@ img {
 
 @media only screen and (max-width: 979px) {
     .ag-timeline_line {
-        left: 30px;
+        left: 0px;
     }
     .ag-timeline_item:nth-child(2n) {
         text-align: left;
@@ -750,7 +750,7 @@ img {
     }
     .ag-timeline-card_item {
         width: auto;
-        margin: -65px 0 0 75px;
+        margin: -65px 0 0 10px;
     }
     .ag-timeline_item:nth-child(2n + 1) .ag-timeline-card_item,
     .ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
@@ -796,7 +796,7 @@ img {
         font-size: 14px;
     }
     .project-details {
-        font-size: 12px;
+        font-size: 14px;
     }
     .animated-me h1 {
         font-size: 20px;
@@ -828,6 +828,81 @@ img {
     }
     .nav ul li {
         font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    main {
+        padding: 125px 10px;
+    }
+    .sidebar-left {
+        display: none;
+    }
+    .sidebar-right {
+        display: none;
+    }
+    .ag-timeline_title {
+        font-size: 30px;
+    }
+    .ag-timeline-card_info {
+        padding: 10px 15px;
+    }
+    .ag-timeline-card_desc {
+        font-size: 14px;
+    }
+    .ag-timeline-card_point {
+        font-size: 14px;
+    }
+    .description-about-me p {
+        font-size: 14px;
+    }
+    .description-about-me a {
+        font-size: 14px;
+    }
+    .animated-me p {
+        font-size: 14px;
+    }
+    .animated-me h1 {
+        font-size: 20px;
+    }
+    .project-details {
+        font-size: 12px;
+    }
+    .blocks-about-me {
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
+    .about-me-img-container {
+        margin: 0 auto;
+        justify-content: center;
+        width: 90%;
+    }
+    .blocks-about-me img {
+        padding-top: 10px;
+        width: 100%;
+    }
+    .about-me {
+        width: 80%;
+        margin: 0 auto 0 auto;
+    }
+    .projects-container {
+        width: 100%;
+        display: block;
+    }
+    .project-card {
+        margin: 20px auto;
+    }
+    .ag-timeline-card_title {
+        font-size: 14px;
+    }
+    .ag-timeline-card_item {
+        width: auto;
+        margin: -65px 0 0 10px;
+    }
+    nav ul li {
+        font-size: 12px;
+        padding: 0;
     }
 }
 
@@ -896,81 +971,6 @@ img {
     }
     .technologies h2 {
         padding-bottom: 15px;
-    }
-}
-
-@media only screen and (max-width: 479px) {
-    main {
-        padding: 125px 10px;
-    }
-    .sidebar-left {
-        display: none;
-    }
-    .sidebar-right {
-        display: none;
-    }
-    .ag-timeline_title {
-        font-size: 30px;
-    }
-    .ag-timeline-card_info {
-        padding: 10px 15px;
-    }
-    .ag-timeline-card_desc {
-        font-size: 10px;
-    }
-    .ag-timeline-card_point {
-        font-size: 10px;
-    }
-    .description-about-me p {
-        font-size: 12px;
-    }
-    .description-about-me a {
-        font-size: 12px;
-    }
-    .animated-me p {
-        font-size: 12px;
-    }
-    .animated-me h1 {
-        font-size: 30px;
-    }
-    .project-details {
-        font-size: 10px;
-    }
-    .blocks-about-me {
-        justify-content: center;
-        align-items: center;
-        display: block;
-    }
-    .about-me-img-container {
-        margin: 0 auto;
-        justify-content: center;
-        width: 90%;
-    }
-    .blocks-about-me img {
-        padding-top: 10px;
-        width: 100%;
-    }
-    .about-me {
-        width: 80%;
-        margin: 0 auto 0 auto;
-    }
-    .projects-container {
-        width: 100%;
-        display: block;
-    }
-    .project-card {
-        margin: 20px auto;
-    }
-    .ag-timeline-card_title {
-        font-size: 14px;
-    }
-    .ag-timeline-card_item {
-        width: auto;
-        margin: -65px 0 0 45px;
-    }
-    nav ul li {
-        font-size: 12px;
-        padding: 0;
     }
 }
 

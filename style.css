@@ -117,17 +117,6 @@ nav ul li a {
     filter: var(--filter-moon);
 }
 
-#moon2 {
-    position: absolute;
-    top: 15px;
-    right: 40px;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    padding: 0 20px;
-    filter: var(--filter-moon);
-}
-
 nav span {
     visibility: hidden;
     color: var(--accent-color);
@@ -336,7 +325,7 @@ footer {
     filter: var(--filter-moon);
 }
 
-section img {
+img {
     margin: 0 auto;
     width: 50%;
     height: auto;

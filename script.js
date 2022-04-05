@@ -37,13 +37,3 @@ window.onscroll = function() {
     }
     prevScrollpos = currentScrollPos;
 };
-
-let icon = document.getElementById("moon");
-icon.onclick = function() {
-    document.body.classList.toggle("dark-theme");
-};
-
-let icon2 = document.getElementById("moon2");
-icon2.onclick = function() {
-    document.body.classList.toggle("dark-theme");
-};
