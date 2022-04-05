@@ -117,6 +117,17 @@ nav ul li a {
     filter: var(--filter-moon);
 }
 
+#moon2 {
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding: 0 20px;
+    filter: var(--filter-moon);
+}
+
 nav span {
     visibility: hidden;
     color: var(--accent-color);
@@ -325,7 +336,7 @@ footer {
     filter: var(--filter-moon);
 }
 
-img {
+section img {
     margin: 0 auto;
     width: 50%;
     height: auto;
@@ -425,7 +436,7 @@ span {
         padding-bottom: 300px;
     }
     .article-container {
-        padding: 125px 10px;
+        padding: 50px 10px 125px 10px;
     }
     .sidebar-left {
         display: none;
@@ -469,7 +480,7 @@ span {
         padding-bottom: 300px;
     }
     .article-container {
-        padding: 125px 25px;
+        padding: 50px 10px 125px 10px;
     }
     .sidebar-left {
         display: none;
@@ -512,6 +523,9 @@ span {
         display: flex;
         flex-wrap: wrap;
     } */
+    .article-container {
+        padding: 50px 10px 125px 10px;
+    }
     .contact-me {
         padding-bottom: 300px;
     }
@@ -536,6 +550,7 @@ span {
         font-size: 20px;
     }
     h1 {
+        color: var(--primary-color);
         font-size: 20px;
         line-height: 1;
     }
@@ -564,6 +579,7 @@ span {
         line-height: 1.1;
     }
     h1 {
+        color: var(--primary-color);
         font-size: 30px;
         line-height: 1;
     }
@@ -595,6 +611,7 @@ span {
         line-height: 1.1;
     }
     h1 {
+        color: var(--primary-color);
         font-size: 30px;
         line-height: 1;
     }
@@ -627,6 +644,7 @@ span {
         display: none;
     }
     h1 {
+        color: var(--primary-color);
         font-size: 30px;
         line-height: 1;
     }
