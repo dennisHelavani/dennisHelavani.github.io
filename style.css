@@ -389,7 +389,7 @@ section img {
     color: var(--secondary-text);
 }
 
-.contact-container a {
+.contact-me a {
     border-radius: 6px;
     border: 3px solid var(--primary-color);
     color: var(--primary-text);
