@@ -13,13 +13,13 @@
     --fz-xxs: 15px;
     --fz-lg: 20px;
     --fz-am: 17px;
-    --fz-xl: 20px;
+    --fz-xl: 18px;
     --fz-md: 20px;
     --fz-sm: 14px;
     --fz-pd: 15px;
     --accent-color: #448aff;
     --box-shadow: #ff9100;
-    --filter-grey: invert(49%) sepia(0%) saturate(395%) hue-rotate(143deg) brightness(92%) contrast(94%);
+    --filter-grey: invert(49%) sepSia(0%) saturate(395%) hue-rotate(143deg) brightness(92%) contrast(94%);
     --filter-dark: invert(4%) sepia(7%) saturate(9%) hue-rotate(333deg) brightness(102%) contrast(81%);
     --filter-blue: invert(45%) sepia(91%) saturate(1998%) hue-rotate(201deg) brightness(101%) contrast(105%);
     --filter-primary-color: invert(52%) sepia(81%) saturate(1022%) hue-rotate(1deg) brightness(105%) contrast(103%);
@@ -161,7 +161,7 @@ body {
 }
 
 .article-container {
-    padding: 150px 50px 0 50px;
+    padding: 150px 50px 0px 50px;
     margin: 0px auto;
     max-width: 1600px;
     height: 100%;
@@ -177,7 +177,7 @@ section {
     height: 70vh;
     margin: 0 auto;
     position: sticky;
-    top: 90px;
+    top: 70px;
     overflow: hidden;
     padding: 5vmin;
     border-radius: 11px;
@@ -336,10 +336,15 @@ footer {
     filter: var(--filter-moon);
 }
 
-section img {
+.img-container {
+    width: 100%;
+    height: 100%;
+}
+
+.img-container img {
+    width: 100%;
+    max-height: 80%;
     margin: 0 auto;
-    width: 50%;
-    height: auto;
 }
 
 .technologies {
@@ -575,12 +580,12 @@ span {
     }
     section h1 {
         color: var(--primary-color);
-        font-size: 30px;
+        font-size: 26px;
         line-height: 1.1;
     }
     h1 {
         color: var(--primary-color);
-        font-size: 30px;
+        font-size: 26px;
         line-height: 1;
     }
     section p {
@@ -607,12 +612,12 @@ span {
     }
     section h1 {
         color: var(--primary-color);
-        font-size: 30px;
+        font-size: 26px;
         line-height: 1.1;
     }
     h1 {
         color: var(--primary-color);
-        font-size: 30px;
+        font-size: 26px;
         line-height: 1;
     }
     section p {
@@ -621,11 +626,11 @@ span {
     }
     section h2 {
         color: var(--secondary-text);
-        font-size: 25px;
+        font-size: 22px;
         line-height: 1.1;
     }
     section h3 {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 1.1;
     }
 }
@@ -645,12 +650,12 @@ span {
     }
     h1 {
         color: var(--primary-color);
-        font-size: 30px;
+        font-size: 26px;
         line-height: 1;
     }
     section h1 {
         color: var(--primary-color);
-        font-size: 30px;
+        font-size: 26px;
         line-height: 1.1;
     }
     section p {
@@ -659,11 +664,11 @@ span {
     }
     section h2 {
         color: var(--secondary-text);
-        font-size: 25px;
+        font-size: 22px;
         line-height: 1.1;
     }
     section h3 {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 1.1;
     }
 }
