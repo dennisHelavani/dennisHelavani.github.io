@@ -342,21 +342,21 @@ footer {
 }
 
 .img-container img {
-    width: 80%;
-    height: auto;
+    width: auto;
+    height: 80%;
     margin: 0 auto;
 }
 
 .technologies {
-    max-width: 68.75rem;
-    margin: auto;
     text-align: center;
-    margin-top: 2.5rem;
+    max-height: 80%;
+    max-width: 68.75rem;
 }
 
-.skill-header {
+
+/* .skill-header {
     margin-bottom: 1rem;
-}
+} */
 
 .skills-wrapper img {
     padding: 1rem;
