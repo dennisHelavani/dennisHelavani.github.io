@@ -1058,7 +1058,7 @@ img {
         width: 100%;
     }
     main {
-        padding: 200px 100px;
+        padding: 200px 100px 0px 100px;
     }
     .device {
         display: none;
@@ -1070,7 +1070,7 @@ img {
         width: 100%;
     }
     main {
-        padding: 200px 100px;
+        padding: 200px 100px 0px 100px;
     }
     .device {
         display: none;
